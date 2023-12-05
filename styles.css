@@ -366,12 +366,13 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
  #don_button {
-    width: 50%;
+    width: 30%;
     background-color: purple;
     font-size: x-large;
-    margin-left: 25%;
+    margin-left: 5%;
     margin-bottom: 5%;
     border-radius: 5px;
+    border-style: double;
     margin-top: 5%;
     padding: 0%;
  }   
