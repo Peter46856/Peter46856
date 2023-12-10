@@ -433,7 +433,7 @@ justify-content: space-between;
  }   
 
 
- .don_butto{
+ #don_butto{
     width: 25%;
     flex: 1;
     height: 40px;
