@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -150,13 +151,16 @@ body {
     
 .container1 {
     display: block;
-    width: 100%;
-    position: sticky;
-    margin: 0;
-    padding-top: 0%;
-    min-height: 50%;
-    color: #0f0e0e;
     
+    position: sticky;
+    padding-top: 0%;
+    
+    
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container11 {
@@ -236,8 +240,9 @@ list-style: disc;
     padding-top: 10px;
     width: 45%;
     padding-left: 5%;
+    margin-top: 2%;
     padding-right: 10px;
-   
+    position: sticky;
    
     
 }
@@ -246,7 +251,8 @@ list-style: disc;
     padding-top: 0px;
     width: 100%;
     padding-right: 0px;
-    border-style: outset;
+    border-style: hidden;
+    
     border-radius: 5px;
     border-color: #082138;
     
@@ -279,18 +285,18 @@ img {
 #t33 {
 
     padding-left: 10px;
-   
-    background-color:purple;
-    text-decoration: #0fe440;
+    text-align: center;
+   margin-left: 25%;
+    background-color:rgb(53, 7, 53);
+color: yellow;
     width: 50%;
-    margin-left: 10%;
+    
 }
 
 
 #wh {
 
-    margin-left: 7.5%;
-    margin-top: 5%;
+    text-align: center;
 }
  
 #t2 {
@@ -312,14 +318,13 @@ img {
 }
 
 #ttt {
-    width: 85%;
+    width: 80%;
     text-decoration: #0fe440;
-    padding-left: 30px;
-    padding-right: 20px;
+    padding: 30px;
     text-align: justify;
-    margin-left: 7.5%;
     border-style: hidden;
-    border-radius: 2%;
+    margin-left: 10%;
+    
 }
 
 #t3 {
@@ -367,7 +372,7 @@ padding: 20px;
     height: 150px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 7%;
+    margin-left: 25%;
     margin-right: 30%;
     margin-top: 5px;
     padding-top: 10px;
@@ -378,7 +383,7 @@ padding: 20px;
 .image123 {
 
     width: 30%;
-    margin-left: 7.5%;
+    margin-left: 35%;
   
    
 
@@ -393,25 +398,99 @@ padding: 20px;
 }
 
 #don_button11 {
-    width: 35%;
+    width: 40%;
+    font-size: large;
     height: 30px;
-    background-color: pink;
+    background-color: rgb(243, 73, 101);
     font-size: x-large;
-    margin-left: 7.5%;
+    margin-left: 30%;
     margin-top: 2%;
+    border-radius: 5px;
     padding-left: 10px;
  }   
+.donbutton {
 
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
 
 #don_button1 {
     width: 25%;
-    height: 30px;
+    flex: 1;
+    height: 40px;
     background-color: purple;
-    font-size: x-large;
+    font-size: larger;
+    margin-right: 7.5%;
     margin-left: 7.5%;
     margin-top: 2%;
-    padding-left: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
  }   
+
+
+ .don_butto{
+    width: 25%;
+    flex: 1;
+    height: 40px;
+    background-color: purple;
+    font-size: larger;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+ }   
+
+ 
+
+ .donparagragh  {
+
+text-align: justify;
+margin-left: 25%;
+width: 50%;
+
+
+
+ }
+
+ #donh3 {
+
+
+color: rgb(243, 73, 101);
+
+ }
+
+#donno {
+   
+background-color: rgb(243, 73, 101);
+width: 10px;
+}
+
+.h3don {
+
+margin-left: 5%;
+margin-top: 2%;
+
+}
+
+.donintro {
+
+    width: 70%;
+    text-align: justify;
+    margin-left: 15%;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
 
 .text1 {
     padding-top: 5px;
@@ -420,7 +499,7 @@ padding: 20px;
     margin: 10px;
 }
 
- #don_button {
+ #don_butt {
     width: 30%;
     background-color: purple;
     font-size: x-large;
@@ -432,27 +511,9 @@ padding: 20px;
     padding: 0%;
  }   
 
-.footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
 
-.footer-item {
-    flex: 1;
-    text-align: center;
-}
 
-.footer h3 {
-    font-size: 18px;
-}
 
-.footer p {
-    font-size: 14px;
-    margin: 0;
-}
 #faq-section {
     max-width: 800px;
     margin: 20px auto;
@@ -462,10 +523,7 @@ padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h3 {
-    text-align: center;
-    color: #333;
-}
+
 
 *{
     margin:0px;
@@ -531,10 +589,23 @@ img:hover {
 color: purple;
   }
 #hw {
-    margin-left: 20px;
+    
+    background-color: rgb(53, 7, 53);
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
 }
+
+
+
+
+#hi {
+
+    color: yellow;
+}
+
 h1, h2, h3 {
-    color: rgb(12, 18, 107);
+    color: blue;
 }
 
 p {
@@ -564,6 +635,10 @@ a:hover {
     background-color: #3498db;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .button:hover {
@@ -617,3 +692,330 @@ p em {
     font-style: italic;
     color: #3a100c;
 }
+
+
+#intro-text {
+    font-size: 18px;
+    color: #555;
+    margin-left: 7%;
+}
+
+#ulli {
+
+margin-left: 10%;
+list-style: square;
+
+
+}
+
+
+.donation-container {
+    text-align: center;
+    
+    padding: 30px;
+    background-color: rgba(245, 245, 7, 0.384);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .donate-button, .fund-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .donate-button:hover, .fund-button:hover {
+    background-color: #45a049;
+  }
+
+  #donation-message {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .imgg {
+
+      width: 30%;
+      text-align: center;
+      margin-left: 35%;
+
+  }
+
+  .home_intro {
+
+    text-align: center;
+    
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+
+
+
+  .step-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.step {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.step:nth-child(odd) {
+  align-self: flex-start;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  width: 40%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#stepsnumber {
+
+
+background-color: rgb(63, 63, 150);
+color: whitesmoke;
+border-radius: 5px;
+}
+#steps  {
+
+color: rgb(6, 6, 110);
+
+
+}
+
+
+
+.step:nth-child(even) {
+  align-self: flex-end; 
+  margin-right: 8%;
+  margin-bottom: 5%;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40%;
+  color: black;
+}
+
+
+
+
+       
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .project-card {
+            max-width: auto;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            display: block;
+            
+            margin-right: 25%;
+            margin-left: 25%;
+            margin-bottom: 5%;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .project-details {
+            padding: 20px;
+        }
+
+
+        .goal {
+            margin-bottom: 10px;
+        }
+
+        .goal strong {
+            color: #007BFF;
+        }
+
+        .donatee1-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .donatee1-button:hover {
+            background-color: #0056b3;
+        }
+
+        .introduction1w {
+            max-width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        
+        .thank-you-message {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+
+
+        
+        .footer {
+        background-color: #6c7571;
+            width: 100%;
+            
+                text-align: center;
+                
+                padding: 30px;
+                
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+            
+            
+        }
+
+#ftt {
+
+    background-color: #6c7571;
+    width: 100%;
+
+}
+
+
+
+
+
+
+        .footer1-details {
+            display: flex;
+            
+            text-align: justify;
+            width: 100%;
+            margin-left: 3%;
+            
+        }
+        .footer1-column {
+            
+            flex: 1; 
+            width: auto;/* Each column takes up 30% of the container */
+            
+        }
+
+
+        .contact-info, .newsletter-form {
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+            
+           
+        }
+
+        #btt {
+
+            margin-bottom: 5%;
+        }
+
+        .newsletter-form input {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+            width: 250px;
+        }
+
+        .newsletter-form button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .footer-links {
+            margin-top: 20px;
+            
+            width: 100%;
+            text-align: left;
+            margin-left: 5%;
+            
+            
+    
+            
+        }
+
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #007BFF;
+        }
+
+    
+
+        
+        .social-icons {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        .social-icons a {
+            color: #ccc;
+            margin: 10px 0;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007BFF;
+        }
