@@ -936,16 +936,14 @@ color: rgb(6, 6, 110);
 
         .footer1-details {
             display: flex;
-            
-            text-align: justify;
             width: 100%;
-            margin-left: 3%;
+            margin-left: 0%;
             
         }
         .footer1-column {
+             flex: 1 1 0%; /* 
+             width: auto;
             
-            flex: 1; 
-            width: auto;/* Each column takes up 30% of the container */
             
         }
 
@@ -982,10 +980,8 @@ color: rgb(6, 6, 110);
 
         .footer-links {
             margin-top: 20px;
-            
-            
             text-align: left;
-            margin-left: 5%;
+            
             
             
     
