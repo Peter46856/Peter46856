@@ -200,19 +200,22 @@
         
           <button class="donate-button" onclick="handleDonation()">Donate</button>
           <button class="fund-button" onclick="handleFundProject()">Fund Project</button>
-        
+         <a id="don_butt" href="#" target="_blank">Donate Now!</a>
           <p id="donation-message"></p>
         </div>
         
         <script>
-          function handleDonation() {
-            <a id="don_butt" href="https://www.paypal.com/donate/?hosted_button_id=APUCKX9MGAMLL">Donate Now!</a>
-            document.getElementById('donation-message').innerText = 'Thank you for your generous donation!';
-          }
+           function handleDonation() {
+        var donateLink = document.getElementById('don_butt');
+        donateLink.href = "https://www.paypal.com/donate/?hosted_button_id=APUCKX9MGAMLL";
+        document.getElementById('donation-message').innerText = 'Thank you for your generous donation!';
+    }
+
         
           function handleFundProject() {
-            // You can add project funding logic here
-            document.getElementById('donation-message').innerText = 'Thank you for funding our project!';
+            var donateLink = document.getElementById('don_butt');
+        donateLink.href = "https://www.paypal.com/donate/?hosted_button_id=APUCKX9MGAMLL";
+         document.getElementById('donation-message').innerText = 'Thank you for funding our project!';
           }
         </script>
 
