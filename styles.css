@@ -906,94 +906,76 @@ color: rgb(6, 6, 110);
 
 
         
-        .footer {
-        background-color: #6c7571;
-            max-width: 100%;
-            
-                text-align: center;
-                
-                padding: 30px;
-                
-                border-radius: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            
-            
-            
-        }
 
-#ftt {
 
+
+
+
+
+
+.footer {
     background-color: #6c7571;
-    
-
+    max-width: 100%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
+#ftt {
+    background-color: #6c7571;
+}
 
+.footer1-details {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+}
 
+.footer1-column {
+    flex: 1; /* Equal width for all columns */
+    margin: 0 10px; /* Add some margin between columns */
+}
 
+.contact-info,
+.newsletter-form,
+.footer-links {
+    margin-top: 20px;
+    text-align: center;
+}
 
+#btt {
+    margin-bottom: 5%;
+}
 
-        .footer1-details {
-            display: flex;
-            width: 100%;
-            margin-left: 0%;
-            
-        }
-        .footer1-column {
-             flex: 1 1 0%; /* 
-             width: auto;
-            
-            
-        }
+.newsletter-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 100%; /* Make the input field take up the full width of its container */
+}
 
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-        .contact-info, .newsletter-form {
-            margin-top: 20px;
-        
-            text-align: center;
-            
-           
-        }
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
 
-        #btt {
+.footer-links a:hover {
+    color: #007BFF;
+}
 
-            margin-bottom: 5%;
-        }
-
-        .newsletter-form input {
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            margin-right: 10px;
-            width: 250px;
-        }
-
-        .newsletter-form button {
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-      .footer-links {
-          width: 100%
-            
-        }
-
-        .footer-links a {
-            color: #ccc;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .footer-links a:hover {
-            color: #007BFF;
-        }
-
-    
 
         
         
