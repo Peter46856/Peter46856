@@ -951,7 +951,7 @@ color: rgb(6, 6, 110);
 
         .contact-info, .newsletter-form {
             margin-top: 20px;
-            width: 100%;
+        
             text-align: center;
             
            
@@ -982,7 +982,7 @@ color: rgb(6, 6, 110);
         .footer-links {
             margin-top: 20px;
             
-            width: 100%;
+            
             text-align: left;
             margin-left: 5%;
             
@@ -1004,18 +1004,4 @@ color: rgb(6, 6, 110);
     
 
         
-        .social-icons {
-            margin-top: 20px;
-            font-size: 24px;
-        }
-
-        .social-icons a {
-            color: #ccc;
-            margin: 10px 0;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-
-        .social-icons a:hover {
-            color: #007BFF;
-        }
+        
