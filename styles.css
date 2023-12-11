@@ -978,7 +978,8 @@ color: rgb(6, 6, 110);
             cursor: pointer;
         }
 
-      
+      .footer-links {
+          width: 100%
             
         }
 
