@@ -223,7 +223,7 @@ list-style: disc;
 .image-container1 {
     flex: 1;
     padding-top: 10px;
-    width: 45%;
+    width: 55%;
     padding-left: 5%;
     margin-top: 2%;
     padding-right: 10px;
@@ -288,6 +288,7 @@ color: yellow;
     width: 100%;
     background-color:purple;
     text-decoration: #185226;
+    color: white;
     padding-left: 30px;
     margin-left: 0px;
 }
@@ -316,7 +317,8 @@ color: yellow;
     padding-left: 30px;
     background-color: purple;
     text-decoration: #0fe440;
-    width: 50%;
+    width: auto;
+    color: white;
     margin-left: 10px;
    
 
@@ -327,6 +329,7 @@ color: yellow;
     background-color:purple;
     text-decoration: #0fe440;
     width: 50%;
+    color: white;
     margin-left: 25%;
     text-align: center;
    
