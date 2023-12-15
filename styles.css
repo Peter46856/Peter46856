@@ -712,6 +712,7 @@ list-style: square;
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+      width: auto;
   }
 
   .donate-button:hover, .fund-button:hover {
