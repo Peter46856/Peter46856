@@ -171,11 +171,40 @@ Together, we can create positive change and improve lives.
 
 </div>
 </div>
-   
+   <div class="fqclass>
+
+<button class="faq21-button" onclick="toggleFAQDropdown()">FAQ</button>
+
+        <!-- FAQ dropdown section -->
+        <div class="faq21-dropdown" id="faqDropdown">
+            <!-- Your FAQ content goes here -->
+            <h2>Frequently Asked Questions</h2>
+            <p>Q: What is the meaning of life?</p>
+            <p>A: The meaning of life is...</p>
+        </div>
+    </nav>
+
+    <!-- Your page content goes here -->
+
+    <script>
+        // JavaScript function to toggle the visibility of the FAQ dropdown
+        function toggleFAQDropdown() {
+            var faqDropdown = document.getElementById("faqDropdown");
+            if (faqDropdown.style.display === "none" || faqDropdown.style.display === "") {
+                faqDropdown.style.display = "block";
+            } else {
+                faqDropdown.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
 
 
         
-
+   </div>
     <div class="footer">
     <div class="footer1-details">
         <div class="footer1-column">
