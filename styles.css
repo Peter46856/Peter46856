@@ -763,9 +763,9 @@ list-style: square;
 
 .step:nth-child(odd) {
   align-self: flex-start;
-  margin-left: 8%;
+  margin-left: 5%;
   margin-bottom: 5%;
-  width: 40%;
+  width: 65%;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -789,11 +789,11 @@ color: rgb(6, 6, 110);
 
 .step:nth-child(even) {
   align-self: flex-end; 
-  margin-right: 8%;
+  margin-right: 5%;
   margin-bottom: 5%;
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 40%;
+  width: 65%;
   color: black;
 }
 
