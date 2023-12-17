@@ -192,17 +192,6 @@ text-align: left;
     color: #0f0e0e;
 }
 
-.faq-question {
-    font-weight: bold;
-    margin: 0;
-    padding: 15px;
-    background-color: #282a2e;
-    color: #888585;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    transition: background-color 0.3s;
-}
 
 
 
@@ -534,14 +523,7 @@ p {
 
 
 
-.faq-answer {
-    margin-bottom: 20px;
-    color: #555;
-    display: none;
-    margin: 0;
-    padding: 15px;
-    border-top: 1px solid #ddd;
-}
+
 
 .question:hover {
     background-color: #2a57a4;
@@ -982,9 +964,109 @@ color: rgb(6, 6, 110);
         }
 
 
-.fqclass {
-    width: 100%;
-    background-color: #ff6600;
-    height: 100px;
+
+
+
+
+     .fqclass {
+
+             background-color: #8ac1ee; 
+             width: 100%;
+             border-radius: 5px;
+             height: 100px;
+             text-align: center;
+
+
+
+            }
+
+
+     .faq-button {
+            background-color: #83ad84;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+            width: 40%;
+            margin-top: 5%;
+        }
+
+       
+        .faq-section {
+            display: none;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        
+      .faq-question {
+        font-weight: bold;
+        margin: 0;
+        padding: 15px;
+        background-color: #637291;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        transition: background-color 0.3s;
+        text-align: left;
+    }
+
+    
+
+      .column1 {
+          background-color: #8ac1ee;
+          padding: 20px;
+          border-radius: 8px;
+          margin-top: 30px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      
+
+      .faq-answer {
+          display: none;
+          margin: 0;
+          padding: 15px;
+          border-top: 1px solid #ddd;
+          border-radius: 0 0 8px 8px;
+      }
+
+      
+
+      
+
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+          to {
+              opacity: 1;
+          }
+      }
+
+      @keyframes slideDown {
+          from {
+              opacity: 0;
+              transform: translateY(-20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+
+      .faq-answer.show {
+          display: block;
+          animation: slideDown 0.5s ease-in-out;
+      }
+      
+  
+
         
         
