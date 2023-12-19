@@ -64,7 +64,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: left;
 }
+#header12 {
+    color: white;
 
+}
 
 .text2{
     max-width: 40%;
