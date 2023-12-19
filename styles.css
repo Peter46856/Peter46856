@@ -263,6 +263,7 @@ img {
    margin-left: 25%;
     background-color:rgb(53, 7, 53);
 color: yellow;
+    color: white;
     width: 50%;
     
 }
@@ -381,6 +382,7 @@ padding: 20px;
     height: 30px;
     background-color: rgb(243, 73, 101);
     font-size: x-large;
+    color: white;
     margin-left: 30%;
     margin-top: 2%;
     border-radius: 5px;
@@ -408,6 +410,7 @@ justify-content: space-between;
     text-align: center;
     display: inline-block;
     font-size: 16px;
+    color: white;
  }   
 
 
@@ -416,6 +419,7 @@ justify-content: space-between;
     flex: 1;
     height: 40px;
     background-color: purple;
+     color: white;
     font-size: larger;
     margin-right: 7.5%;
     margin-left: 7.5%;
