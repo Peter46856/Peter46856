@@ -980,7 +980,7 @@ color: rgb(6, 6, 110);
              background-color: #8ac1ee; 
              width: 100%;
              border-radius: 5px;
-             height: 100px;
+             height: 300px auto;
              text-align: center;
          position: relative;
 
@@ -1009,7 +1009,8 @@ color: rgb(6, 6, 110);
             border-radius: 5px;
             margin-top: 10px;
             position: relative;
-            oveerflow: hidden;
+            overflow: hidden;
+            bottom: 0;
         }
 
         
