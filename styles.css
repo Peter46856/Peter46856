@@ -524,9 +524,7 @@ p {
     line-height: 1.5;
 }
 
-#faq-section {
-    text-align: center;
-}
+
 
 
 
@@ -963,7 +961,7 @@ color: rgb(6, 6, 110);
        
         .faq21-dropdown {
             display: none;
-            position: absolute;
+            position: relative;
             background-color: #f1f1f1;
             border-radius: 5px;
             padding: 10px;
@@ -984,7 +982,7 @@ color: rgb(6, 6, 110);
              border-radius: 5px;
              height: 100px;
              text-align: center;
-
+         position: relative;
 
 
             }
@@ -1010,6 +1008,7 @@ color: rgb(6, 6, 110);
             background-color: #f1f1f1;
             border-radius: 5px;
             margin-top: 10px;
+            position: relative;
         }
 
         
