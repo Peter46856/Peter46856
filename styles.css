@@ -1007,7 +1007,7 @@ color: rgb(6, 6, 110);
             background-color: #f1f1f1;
             border-radius: 5px;
             margin-top: 10px;
-            position: relative;
+            position: absolute;
             overflow: hidden;
             bottom: 0;
         }
