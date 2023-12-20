@@ -38,6 +38,114 @@
           width: 100%;
       }
 
+
+
+  <style>
+        /* Add some basic styling for the navigation menu */
+           
+
+        /* Style the FAQ button */
+        .faq-button {
+            background-color: #83ad84;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+            width: 40%;
+            margin-top: 5%;
+        }
+
+       
+        .faq-section {
+            display: none;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        
+      .faq-question {
+        font-weight: bold;
+        margin: 0;
+        padding: 15px;
+        background-color: #637291;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        transition: background-color 0.3s;
+        text-align: left;
+    }
+
+    
+
+      .column1 {
+          background-color: #8ac1ee;
+          padding: 20px;
+          border-radius: 8px;
+          margin-top: 30px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      
+
+      .faq-answer {
+          display: none;
+          margin: 0;
+          padding: 15px;
+          border-top: 1px solid #ddd;
+          border-radius: 0 0 8px 8px;
+      }
+
+      
+
+      
+
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+          to {
+              opacity: 1;
+          }
+      }
+
+      @keyframes slideDown {
+          from {
+              opacity: 0;
+              transform: translateY(-20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+
+      .faq-answer.show {
+          display: block;
+          animation: slideDown 0.5s ease-in-out;
+      }
+      
+  
+
+         .fqclass {
+
+             background-color: #8ac1ee; 
+             width: 100%;
+             border-radius: 5px;
+             height: 200px;
+             text-align: center;
+
+
+
+            }
+        
+        </style>
+        
 </style>
         
 
@@ -177,6 +285,107 @@ We believe in building a strong and enduring relationship with our supporters.
 </div>
 </div>
 
+<div class="fqclass">
+
+        
+        <button class="faq-button" onclick="toggleFAQ()">Show FAQ</button>
+    </nav>
+
+   
+    <div class="faq-section" id="faqdropdown">
+        
+       
+            <div class="column1" id="column11" id="faq-section">
+            <h3>FREQUENTLY ASKED QUESTIONS</h3>
+            <div class="faq-question">Q: What is the purpose of our charity organization?</div>
+            <div class="faq-answer">
+                <p>A: Our charity organization aims to [briefly describe the mission and purpose of the organization, such as helping underprivileged communities, promoting education, or offering medical assistance].</p>
+            </div>
+          
+            <div class="faq-question">Q: How can I donate to your charity?</div>
+            <div class="faq-answer">
+                <p>A: We appreciate your willingness to contribute. You can donate online through our secure donation portal on our website. We also accept donations through various other channels, such as bank transfers, checks, or in-kind contributions. Please visit our "Donate" page for more information.</p>
+            </div>
+          
+            <div class="faq-question">Q: Are donations tax-deductible?</div>
+            <div class="faq-answer">
+                <p>A: Yes, as a registered and recognized charitable organization, your donations are generally tax-deductible. However, specific tax rules may vary by jurisdiction. We recommend consulting with a tax professional or referring to relevant tax authorities for precise information.</p>
+            </div>
+          
+          <div class="faq-question">Q: Can I volunteer with your organization?</div>
+          <div class="faq-answer">
+              <p>A: Absolutely! We highly value the support of volunteers. Visit our "Volunteer" page to learn more about the opportunities available, the application process, and how you can contribute your time and skills to our cause.</p>
+          </div>
+          <div class="faq-question">Q: How can I get involved in your upcoming events?</div>
+          <div class="faq-answer">
+              <p>A: We enthusiastically encourage your participation in our events. Stay updated by visiting our "Events" page, where we regularly share information about upcoming fundraising events, community gatherings, volunteer activities, and more. </p>
+          </div>
+          
+           <div class="faq-question">Q: Can I nominate someone for assistance from your charity?</div>
+          <div class="faq-answer">
+              <p>A: Yes. We welcome nominations for individuals or communities in need of our assistance. Please navigate to our "Contact" page and fill out the nomination form with relevant details. Our team will review each submission carefully</p>
+          </div>
+          
+          <div class="faq-question">Q: How can I get a receipt for my donation?</div>
+          <div class="faq-answer">
+              <p>A: If you donate online, you will automatically receive an electronic receipt via email. For offline donations, such as checks or bank transfers, please provide your contact information, including your email address, so we can send you a receipt as confirmation of your donation. </p>
+          </div>
+          
+          <div class="faq-question">Q: How transparent is your organization regarding financial information?</div>
+          <div class="faq-answer">
+              <p>A: We are committed to transparency and accountability. Our annual financial reports, including detailed statements, can be found on our website. Feel free to explore our "Financials" page for more information. </p>
+          </div>
+          
+          <div class="faq-question">Q: Can I request a specific area or project to support with my donation?</div>
+          <div class="faq-answer">
+              <p>A: Yes, we recognize that donors may have preferences. Please indicate your interest or specify the project/area you wish to support during the donation process, and we will make every effort to fulfill your request accordingly. </p>
+          </div>
+          
+          <div class="faq-question">Q: How can I obtain further information about your charity?</div>
+          <div class="faq-answer">
+              <p>A: For any additional inquiries or information not covered in our FAQ, please visit our "Contact" page and reach out to us via the provided channels. Our dedicated team will be glad to assist you and provide further details.</p>
+          </div>
+          </div>
+        </div>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var faqQuestions = document.querySelectorAll('.faq-question');
+          
+                faqQuestions.forEach(function (question) {
+                    question.addEventListener('click', function () {
+                        var answer = this.nextElementSibling;
+                        if (answer.style.display === 'block') {
+                            answer.style.display = 'none';
+                        } else {
+                            answer.style.display = 'block';
+                        }
+                    });
+                });
+            });
+          </script>
+
+    </div>
+
+   
+
+    <script>
+        // JavaScript function to toggle the visibility of the FAQ section and update the button text
+        function toggleFAQ() {
+            var faqdropdown = document.getElementById("faqdropdown");
+            var faqButton = document.querySelector(".faq-button");
+
+            if (faqdropdown.style.display === "none") {
+                faqdropdown.style.display = "block";
+                faqButton.textContent = "Hide FAQ";
+            } else {
+                faqdropdown.style.display = "none";
+                faqButton.textContent = "Show FAQ";
+            }
+        }
+    </script>
+    
+<!--
 <div class="footer">
     <div class="footer1-details">
         <div class="footer1-column">
