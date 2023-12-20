@@ -276,7 +276,7 @@ img {
 #wh {
 
     text-align: center;
-    color: white;
+    
 }
  
 #t2 {
@@ -366,8 +366,9 @@ padding: 20px;
 
 .image123 {
 
-    width: 30%;
-    margin-left: 35%;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 5%;
   
    
 
