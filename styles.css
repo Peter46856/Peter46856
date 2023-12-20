@@ -1009,6 +1009,7 @@ color: rgb(6, 6, 110);
             border-radius: 5px;
             margin-top: 10px;
             position: relative;
+            oveerflow: hidden;
         }
 
         
