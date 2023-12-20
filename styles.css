@@ -507,6 +507,11 @@ margin-top: 2%;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+            overflow: hidden;
+            bottom: 0;
+            width: 100%;
+            z-index: 2;
 }
 
 
@@ -979,7 +984,7 @@ position: relative;
              background-color: #8ac1ee; 
              width: 100%;
              border-radius: 5px;
-             height: 300px auto;
+             height: auto;
              text-align: center;
          position: relative;
          z-index: 1:
