@@ -952,49 +952,7 @@ color: rgb(6, 6, 110);
 }
 
 
- .faq21-button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-right: 10px;
-        }
-
-       
-        .faq21-dropdown {
-            display: none;
-            position: relative;
-            background-color: #f1f1f1;
-            border-radius: 5px;
-            padding: 10px;
-            margin-top: 10px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-
-
-
-
-
-
-     .fqclass {
-
-             background-color: #8ac1ee; 
-             width: 100%;
-             border-radius: 5px;
-             height: auto;
-             text-align: center;
-         position: relative;
-         
-
-
-            }
-
-
-     .faq-button {
+.faq-button {
             background-color: #83ad84;
             color: black;
             padding: 10px 20px;
@@ -1009,16 +967,11 @@ color: rgb(6, 6, 110);
 
        
         .faq-section {
-            display: flex;
+            display: none;
             padding: 20px;
             background-color: #f1f1f1;
             border-radius: 5px;
             margin-top: 10px;
-            position: absolute;
-            overflow: hidden;
-            bottom: 0;
-            width: 100%;
-            z-index: 2;
         }
 
         
@@ -1055,9 +1008,15 @@ color: rgb(6, 6, 110);
           border-radius: 0 0 8px 8px;
       }
 
-      
+      .fqclass {
+          background-color: #8ac1ee; 
+          width: 100%;
+          border-radius: 5px;
+          text-align: center;
+          margin-bottom: 20px; /* Add margin at the bottom to prevent overlap */
+      }
 
-      
+     
 
       @keyframes fadeIn {
           from {
@@ -1083,7 +1042,6 @@ color: rgb(6, 6, 110);
           display: block;
           animation: slideDown 0.5s ease-in-out;
       }
-      
   
 
         
