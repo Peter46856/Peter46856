@@ -172,19 +172,11 @@ Together, we can create positive change and improve lives.
 </div>
 </div>
   
-
 <div class="fqclass">
-
-        
-        <button class="faq-button" onclick="toggleFAQ()">Show FAQ</button>
-    
-
-   
-    <div class="faq-section" id="faqdropdown" style="display: none;">
-        
-       
-            <div class="column1" id="column11" id="faq-section">
-            <h3>FREQUENTLY ASKED QUESTIONS</h3>
+            <button class="faq-button" onclick="toggleFAQ()">Show FAQ</button>
+            <div class="faq-section" id="faqdropdown">
+                <div class="column1" id="column11" id="faq-section">
+                       <h3>FREQUENTLY ASKED QUESTIONS</h3>
             <div class="faq-question">Q: What is the purpose of our charity organization?</div>
             <div class="faq-answer">
                 <p>A: Our charity organization aims to [briefly describe the mission and purpose of the organization, such as helping underprivileged communities, promoting education, or offering medical assistance].</p>
@@ -232,11 +224,12 @@ Together, we can create positive change and improve lives.
           <div class="faq-question">Q: How can I obtain further information about your charity?</div>
           <div class="faq-answer">
               <p>A: For any additional inquiries or information not covered in our FAQ, please visit our "Contact" page and reach out to us via the provided channels. Our dedicated team will be glad to assist you and provide further details.</p>
-          </div>
-          </div>
+                </div>
+            </div>
         </div>
-        </div>
-</div>
+
+
+ 
         <script>
             document.addEventListener('DOMContentLoaded', function () {
                 var faqQuestions = document.querySelectorAll('.faq-question');
@@ -272,7 +265,6 @@ Together, we can create positive change and improve lives.
                 faqButton.textContent = "Show FAQ";
             }
         }
-    </script>
 
 
         
