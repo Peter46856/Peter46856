@@ -374,7 +374,7 @@ padding: 20px;
 
     width: 50%;
     margin-left: 25%;
-    margin-bottom: 2%;
+    
   
    
 
@@ -396,7 +396,7 @@ padding: 20px;
     font-size: x-large;
     color: white;
     margin-left: 30%;
-    margin-top: 2%;
+   
      margin-bottom: 2%;
     border-radius: 5px;
     padding-left: 10px;
@@ -406,7 +406,7 @@ padding: 20px;
 width: 100%;
 display: flex;
 justify-content: space-between;
-    margin-bottom: 5%;
+   
 
 }
 
@@ -482,7 +482,6 @@ margin-top: 2%;
 .donintro {
 
     width: 70%;
-    margin-top: 5%;
     text-align: justify;
     margin-left: 15%;
     color: black;
