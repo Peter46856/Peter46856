@@ -54,6 +54,64 @@ body {
     margin-bottom: 5%;
     height: 600px;
 
+
+
+.image1234 {
+    text-align: center;
+  }
+  
+  .image-cont1234 {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .bott_class {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .don_button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  #donbutton11 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    margin-left: 30%;
+    width: 40%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  #donbutto,
+  #donbutton1 {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .to_class {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .don_intro {
+    margin: 20px 0; /* Adjust the margin as needed */
+  }
+  
+
+    
 }
 
     #intro{
