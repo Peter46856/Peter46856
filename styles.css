@@ -36,6 +36,31 @@ body {
     margin: 20px 0;
   }
   
+.bbutton-container {
+    text-align: center; /* Optional: Center the buttons */
+}
+
+.bbutton {
+    display: inline-block;
+    width:30%;
+    padding: 10px 20px;
+    margin: 3%; 
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    color: #3498db;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.bbutton:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+
 
 .navbar {
     display: flex;
