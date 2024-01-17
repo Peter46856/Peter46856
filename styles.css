@@ -407,8 +407,8 @@ padding: 20px;
 
 .image123 {
 
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
     
   
    
@@ -424,13 +424,13 @@ padding: 20px;
 }
 
 #don_button11 {
-    width: 45%;
+    width: 46%;
     font-size: large;
     height: 30px;
     background-color: rgb(243, 73, 101);
     font-size: x-large;
     color: white;
-    margin-left: 30%;
+    margin-left: 27%;
     margin-top: 2%;
      margin-bottom: 5%;
     border-radius: 5px;
