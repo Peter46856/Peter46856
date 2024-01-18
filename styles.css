@@ -21,20 +21,20 @@ body {
       position: fixed;
       top: 0;
       left: 0;
-      width: 30%; /* Adjust the width as needed */
+      width: 25%; /* Adjust the width as needed */
       height: 100%;
-      background-color: grey;
+      background-color: #3377a5;
       color: white;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      align-items: left;
+      justify-content: top;
     }
     .menu a {
       color: white;
       text-decoration: none;
       font-size: 24px;
       margin: 20px;
-        background-color: grey;
+        background-color: #3377a5;
     }
 
     .hamburger {
@@ -336,7 +336,7 @@ list-style: disc;
     padding-left: 5%;
     margin-top: 2%;
     padding-right: 10px;
-    position: sticky;
+    
    
     
 }
