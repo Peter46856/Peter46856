@@ -27,6 +27,7 @@ body {
       color: white;
       flex-direction: column;
       align-items: left;
+        text-align: left;
       justify-content: top;
     }
     .menu a {
@@ -79,7 +80,7 @@ body {
 
     @media screen and (max-width: 600px) {
       .menu {
-        width: 80%; /* Adjust the width as needed for smaller screens */
+        width: 60%; /* Adjust the width as needed for smaller screens */
         font-size: 18px;
       }
 
