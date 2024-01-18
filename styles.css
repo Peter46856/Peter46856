@@ -8,28 +8,27 @@ body {
      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-  header {
-    position: fixed; /* Add this line */
-   
-    background-color: purple;
-    color: white;
-    padding: 15px;
-    
-    width: 100%;
-  }
+   header {
+      background-color: white;
+      color: rgb(76, 156, 248);
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
 
-  .menu {
-    display: none;
-    position: absolute; /* Add this line */
-/* Add this line to position it below the header */
- /* Add this line */
-    background-color: purple;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-      height: 600px;
-    /* Add this line, a higher value than header z-index */
-  }
+    .menu {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 30%; /* Adjust the width as needed */
+      height: 100%;
+      background-color: white;
+      color: white;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
     .menu a {
       color: grey;
       text-decoration: none;
