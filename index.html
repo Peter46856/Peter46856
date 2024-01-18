@@ -40,14 +40,50 @@
         
     </head>
     <body>
-   <header id="header12">
-      <div class="navbar">
-        <a href="introduction.html">Home</a>
-        <a href="donation.html">Donation</a>
-        <a href="About.html">About</a>
-        <a href="Contact Us(3).html">Projects</a>
-        </div>
-   </header>
+  <header>
+  <div class="hamburger" onclick="toggleMenu()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <div class="logo">
+    <!-- Add your logo content here, for example, an image -->
+    <img src="logo.jpg" alt="Logo">
+  </div>
+  <div class="login">
+    <!-- Add your login button or form here -->
+    <button onclick="login()">Login</button>
+  </div>
+</header>
+
+<div class="menu" id="menu">
+  <a href="introduction.html">Home</a>
+  <a href="donation.html">Donation</a>
+  <a href="About.html">About</a>
+  <a href="Contact Us(3).html">Projects</a>
+</div>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    var hamburger = document.querySelector(".hamburger");
+    
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+    hamburger.style.visibility = (menu.style.display === "flex") ? "hidden" : "visible";
+  }
+
+  // Add event listener to close the menu when clicking outside
+  document.addEventListener("click", function(event) {
+    var menu = document.getElementById("menu");
+    var hamburger = document.querySelector(".hamburger");
+
+    if (!menu.contains(event.target) && !hamburger.contains(event.target)) {
+      menu.style.display = "none";
+      hamburger.style.visibility = "visible";
+    }
+  });
+</script>
+
 <div class="container1">
             <div class="container11">
         <div class="text-container1">
