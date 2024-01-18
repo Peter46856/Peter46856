@@ -8,32 +8,27 @@ body {
      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-    header {
-      background-color: white;
-      color: rgb(76, 156, 248);
-      display: flex;
-      align-items: center;
-      padding: 10px 20px;
-        position: absolute; 
-    
-    }
+  header {
+    position: relative; /* Add this line */
+    z-index: 1; /* Add this line */
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
 
-    .menu {
-      display: none;
-      
-      top: 0;
-      left: 0;
-      width: 30%; 
-      height: 100%;
-      background-color: black;
-      color: blue;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-        position: absolute; 
-    
-    }
-
+  .menu {
+    display: none;
+    position: absolute; /* Add this line */
+    top: 100%; /* Add this line to position it below the header */
+    left: 0; /* Add this line */
+    background-color: purple;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 2; /* Add this line, a higher value than header z-index */
+  }
     .menu a {
       color: grey;
       text-decoration: none;
