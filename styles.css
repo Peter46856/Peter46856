@@ -8,7 +8,83 @@ body {
      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+    header {
+      background-color: white;
+      color: rgb(76, 156, 248);
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
 
+    .menu {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 30%; /* Adjust the width as needed */
+      height: 100%;
+      background-color: white;
+      color: white;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 24px;
+      margin: 20px;
+    }
+
+    .hamburger {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+    }
+
+    .hamburger div {
+      width: 30px;
+      height: 1px;
+      background-color: rgb(46, 19, 19);
+      margin: 3px 0;
+      transition: 0.4s;
+    }
+
+    .logo {
+      flex: 1;
+      text-align: center;
+     
+    }
+
+    .logo img {
+      width: 400px;
+      height: 50px;
+      border-radius: 7px;
+    }
+
+    .login {
+      margin-left: 20px;
+    }
+
+    .login button {
+      padding: 10px;
+      background-color: #3377a5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    @media screen and (max-width: 600px) {
+      .menu {
+        width: 80%; /* Adjust the width as needed for smaller screens */
+        font-size: 18px;
+      }
+
+      
+    }
 
   
   .to_class {
