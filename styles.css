@@ -34,6 +34,7 @@ body {
       text-decoration: none;
       font-size: 24px;
       margin: 20px;
+        background-color: grey;
     }
 
     .hamburger {
