@@ -63,26 +63,7 @@
   <a href="Contact Us(3).html">Projects</a>
 </div>
   </header>
-<script>
-  function toggleMenu() {
-    var menu = document.getElementById("menu");
-    var hamburger = document.querySelector(".hamburger");
-    
-    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
-    hamburger.style.visibility = (menu.style.display === "flex") ? "hidden" : "visible";
-  }
 
-  // Add event listener to close the menu when clicking outside
-  document.addEventListener("click", function(event) {
-    var menu = document.getElementById("menu");
-    var hamburger = document.querySelector(".hamburger");
-
-    if (!menu.contains(event.target) && !hamburger.contains(event.target)) {
-      menu.style.display = "none";
-      hamburger.style.visibility = "visible";
-    }
-  });
-</script>
 
 <div class="container1">
             <div class="container11">
@@ -303,7 +284,26 @@ Together, we can create positive change and improve lives.
         }
 
     </script>
-        
+        <script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    var hamburger = document.querySelector(".hamburger");
+    
+    menu.style.display = (menu.style.display === "flex") ? "none" : "flex";
+    hamburger.style.visibility = (menu.style.display === "flex") ? "hidden" : "visible";
+  }
+
+  // Add event listener to close the menu when clicking outside
+  document.addEventListener("click", function(event) {
+    var menu = document.getElementById("menu");
+    var hamburger = document.querySelector(".hamburger");
+
+    if (!menu.contains(event.target) && !hamburger.contains(event.target)) {
+      menu.style.display = "none";
+      hamburger.style.visibility = "visible";
+    }
+  });
+</script>
    
     <div class="footer">
     <div class="footer1-details">
