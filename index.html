@@ -112,7 +112,7 @@
     }
 
     .home-intro {
-    
+    display: block;
       margin-left: 2%;
       width: 70%;
       background-color: white;
@@ -125,6 +125,19 @@
 
 
 }
+
+      @media screen and (max-width: 767px) {
+  .homecont {
+    display: block;
+  }
+
+  .text-overlay,
+  .image-container {
+    flex: none;
+    width: 100%;
+  }
+}
+
   </style>
         
     </head>
