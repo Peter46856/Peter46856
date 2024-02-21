@@ -168,10 +168,6 @@ body {
   color: white;
 }
 
-/* Add Separation between Navigation Links */
-.navbar a:not(:last-child) {
-  border-right: 1px solid white;
-}
 
 /* Clear floats after the navbar */
 .navbar:after {
