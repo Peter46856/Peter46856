@@ -34,7 +34,7 @@
           background-color: purple;
           color: #fff;
           padding: 15px;
-          text-align: center;
+         
           width: 100%;
       }
 
@@ -58,7 +58,7 @@
 
  .hamburger {
       cursor: pointer;
-      display: flex;
+      display: none;
       flex-direction: column;
       margin-right: 20px;
     }
@@ -170,11 +170,16 @@
 <body>
      
     <header>
+         <div class="logo">
+    <!-- Add your logo content here, for example, an image -->
+    <img src="logo.jpg" alt="Logo">
+  </div>
       <div class="navbar">
         <a href="introduction.html">Home</a>
         <a href="donation.html">Donation</a>
         <a href="About.html">About Us</a>
         <a href="Contact Us(3).html">Projects</a>
+          <a href="login.html">Login</a
         
     
     </div>
@@ -185,10 +190,7 @@
     <div class="bar"></div>
     <div class="bar"></div>
   </div>
-  <div class="logo">
-    <!-- Add your logo content here, for example, an image -->
-    <img src="logo.jpg" alt="Logo">
-  </div>
+ 
   <div class="login">
     <!-- Add your login button or form here -->
     <button onclick="login()">Login</button>
