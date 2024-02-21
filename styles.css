@@ -73,17 +73,22 @@ body {
 
     .login {
       margin-left: 20px;
+        display: none;
     }
 
     .login button {
       padding: 10px;
       background-color: #3377a5;
       color: white;
+        
       border: none;
       border-radius: 5px;
       cursor: pointer;
     }
 
+.login-button{
+    display: none;
+}
     @media screen and (max-width: 600px) {
       .menu {
         width: 60%; /* Adjust the width as needed for smaller screens */
