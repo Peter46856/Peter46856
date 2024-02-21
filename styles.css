@@ -44,7 +44,7 @@ body {
 
     .hamburger {
       cursor: pointer;
-      display: flex;
+      display: none;
       flex-direction: column;
       margin-right: 20px;
     }
