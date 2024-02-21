@@ -12,6 +12,7 @@ body {
       background-color: white;
       color: rgb(76, 156, 248);
       display: flex;
+    justify-content: space-between;
       align-items: center;
       padding: 10px 20px;
     }
@@ -58,6 +59,8 @@ body {
 
     .logo {
       flex: 1;
+        margin-left: 10px; 
+        width: 25%;
       
      
     }
@@ -420,11 +423,11 @@ img {
 }
 
 #ttt {
-    width: 80%;
+    width: 90%;
     text-decoration: #0fe440;
     padding: 30px;
     text-align: justify;
-    border-style: hidden;
+    border: hidden;
     margin-left: 10%;
     
 }
