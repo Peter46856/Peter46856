@@ -153,6 +153,31 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     width: auto;
+    background-color: blue;
+     transition: background-color 0.3s;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd; /* Change hover color as needed */
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50; /* Change active color as needed */
+  color: white;
+}
+
+/* Add Separation between Navigation Links */
+.navbar a:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+/* Clear floats after the navbar */
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .button {
