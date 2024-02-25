@@ -17,6 +17,24 @@ body {
          width: 100%;   
     }
 
+
+ @media screen and (max-width: 767px) {
+  
+  
+    .navbar {
+        display: none;
+        
+}
+
+      .hamburger{
+          display: flex;
+      }
+      .login {
+          display: inline-block;
+         flex: 1;
+  }
+
+
     .menu {
       display: none;
       position: fixed;
@@ -44,7 +62,7 @@ body {
 
     .hamburger {
       cursor: pointer;
-      display: block;
+      display: none;
       flex-direction: column;
       margin-right: 20px;
     }
