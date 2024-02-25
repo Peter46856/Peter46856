@@ -162,6 +162,7 @@ body {
 }
 
 .navbar a {
+    display: inline-block;
     float: left;
     flex: 1;
     font-weight: 600;
