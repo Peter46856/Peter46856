@@ -135,7 +135,7 @@ body {
 
 
 .navbar {
-    display: flex;
+    display: inline-block;
     flex: 1;
     width: 100%
     background-color: whitesmoke;
