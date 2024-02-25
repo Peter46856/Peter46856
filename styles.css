@@ -9,12 +9,12 @@ body {
 }
 
    header {
-      background-color: white;
+       background-color: rgb(245, 232, 216);
       color: rgb(76, 156, 248);
       display: flex;
     justify-content: space-between;
-      
-      
+       padding: 15px;
+         width: 100%;   
     }
 
     .menu {
