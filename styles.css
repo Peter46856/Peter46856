@@ -139,9 +139,9 @@ body {
     flex: 1;
     width: 100%
     background-color: whitesmoke;
-    
+    align-items: center;
     font-weight: 600;
-    
+    padding-top: 5px;
     color: white;
 }
 
