@@ -44,7 +44,7 @@ body {
 
     .hamburger {
       cursor: pointer;
-      display: none;
+      display: block;
       flex-direction: column;
       margin-right: 20px;
     }
@@ -59,7 +59,7 @@ body {
 
     .logo {
       flex: 1;
-        margin-left: 10px; 
+         
         width: 25%;
       
      
