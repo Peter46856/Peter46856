@@ -107,14 +107,7 @@ body {
 .login-button{
     display: none;
 }
-    @media screen and (max-width: 600px) {
-      .menu {
-        width: 60%; /* Adjust the width as needed for smaller screens */
-        font-size: 18px;
-      }
-
-      
-    }
+   
 
   
   .to_class {
@@ -163,7 +156,6 @@ body {
 
 .navbar a {
     display: inline-block;
-    float: left;
     flex: 1;
     font-weight: 600;
     text-align: center;
