@@ -30,7 +30,7 @@ body {
           display: flex;
       }
       .login {
-          display: inline-block;
+          display: flex;
          flex: 1;
   }
 
