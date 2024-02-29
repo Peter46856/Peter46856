@@ -33,8 +33,13 @@ body {
           display: flex;
          flex: 1;
           margin-left: 10px;
+          width: 10%;
+          
    }
-     
+
+     .logo {
+         width: 75%;
+     }
  }
 
 
@@ -84,7 +89,7 @@ body {
     .logo {
       flex: 1;
          
-        width: 75%;
+        width: 25%;
       
      
     }
