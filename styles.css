@@ -46,8 +46,8 @@ body {
 .menu {
       display: none;
       position: fixed;
-      top: 65px;
-      left: 2;
+      top: 70px;
+      left: 2px;
       width: 60%; 
       height: 100%;
       background-color: white;
@@ -65,7 +65,7 @@ body {
       text-decoration: none;
       font-size: 14px;
       margin-left: 5px;
-        margin-top: 10%;
+        margin-top: 30%;
         background-color: white;
     }
     
