@@ -48,7 +48,7 @@ body {
       position: fixed;
       top: 0;
       left: 0;
-      width: 25%; 
+      width: 50%; 
       height: 100%;
       background-color: white;
       color: black;
@@ -65,7 +65,7 @@ body {
       text-decoration: none;
       font-size: 24px;
       margin: 20px;
-        background-color: #3377a5;
+        background-color: whitesmoke;
     }
     
     
