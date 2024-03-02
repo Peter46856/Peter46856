@@ -28,6 +28,7 @@ body {
 
       .hamburger{
           display: flex;
+          width: 10%;
       }
       .login {
           display: flex;
@@ -39,6 +40,7 @@ body {
 
      .logo {
          width: 75%;
+         allign-items: center
      }
  }
 
